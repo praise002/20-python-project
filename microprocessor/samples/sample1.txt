@@ -1,0 +1,4 @@
+add 8 16
+mul 10 3
+or 1 0
+nand 1 1

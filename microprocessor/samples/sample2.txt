@@ -1,0 +1,22 @@
+nand 123 8
+noop
+gt -93 3
+add 23 32
+or 173 34
+or 147 39
+or 0 0
+or 123 35
+nand -48 35
+nand 75 11
+mul 199 18
+gt 122 35
+min -90 36
+min 74 26
+shift 168 20
+mul 159 0
+gt 83 37
+add 50 19
+nand 182 35
+shift 160 6
+noop
+or -51 21
