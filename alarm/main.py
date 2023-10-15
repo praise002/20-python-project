@@ -1,6 +1,9 @@
 # Write your code here
 import time
-from datetime import datetime
+
+def set_alarm(alarm_time):
+    pass
 
 if __name__ == '__main__':
-    pass
+    alarm_time = input('Enter the time for the alarm (HH:MM:SS): ')
+    set_alarm(alarm_time)
