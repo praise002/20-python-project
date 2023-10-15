@@ -29,16 +29,15 @@ Here are the ones that your program needs to be able to detect, and their byte p
 - JPEG image files begin with 0xFF 0xD8 and end with 0xFF 0xD9
 Your program should print out the type of file it detects, or "Unknown file type" if none of these types match.
 
-## Usage
-1. **Clone or Download**: Clone this repository or download the Python script to your local machine.
+## How to use the binary file info
 
-2. **Run the Script**: Open your terminal or command prompt, navigate to the directory where the script is located, and run it by executing the following command:
+1. **Run the Script**: Open your terminal or command prompt, navigate to the directory where the script is located, and run it by executing the following command:
 
 ```python main.py```
 
-3. **Input a File Name**: You will be prompted to enter the name of the file you want to check.
+2. **Input a File Name**: You will be prompted to enter the name of the file you want to check.
 
-4. **View File Information**: The script will display the file information as specified.
+3. **View File Information**: The script will display the file information as specified.
 
 ## Expected Results
 
