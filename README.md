@@ -22,7 +22,6 @@
 20. Word Counter
 
 ## Usage
-Follow these steps to use the BMI Calculator:
 
 1. **Clone or Download**: Clone this repository or download the Python script to your local machine.
 

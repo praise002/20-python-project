@@ -4,7 +4,7 @@
 
 Hangman is a classic word-guessing game that is both entertaining and educational. It is typically played by two or more players, where one player thinks of a word, phrase, or a sentence, and the other player(s) attempt to guess it one letter at a time. The game is called **Hangman** because a drawing of a hanging man is often used as a visual aid to track incorrect guesses. The challenge for the players is to guess the word correctly before the drawing is completed.
 
-### How to Play:
+## How to Play:
 
 1. **Select a Word**: One player thinks of a word and keeps it secret from the other player(s). This word can be related to a specific category or theme, such as animals, fruits, or movies.
 
@@ -19,7 +19,7 @@ Hangman is a classic word-guessing game that is both entertaining and educationa
 - **Win**: If the players successfully guess the word before the hangman is fully drawn, they win.
 - **Lose**: If the hangman is fully drawn before they guess the word, they lose.
 
-### Educational Benefits:
+## Educational Benefits:
 
 Hangman offers several educational benefits:
 
@@ -33,7 +33,7 @@ Hangman offers several educational benefits:
 
 5. **Fun Learning**: Hangman is an enjoyable way to learn and reinforce language skills.
 
-### Variations:
+## Variations:
 
 Hangman can be adapted in various ways to suit different preferences and educational goals. Some variations include:
 
@@ -42,3 +42,20 @@ Hangman can be adapted in various ways to suit different preferences and educati
 - **Online Games**: Play Hangman online with friends or against computer opponents.
 - **Time Challenges**: Set a time limit for guessing each letter or the entire word.
 - **Picture-Based**: Use pictures or symbols instead of a traditional hangman drawing.
+
+## Usage
+1. **Run the Script**: Execute the script by running the following command:
+```python main.py```
+
+2. **Start Guessing**: The game will randomly select a word, display underscores for hidden letters, and provide you with the number of remaining attempts (lives).
+
+3. **Guess a Letter**: Input a letter to guess. If the letter is in the word, it will be revealed; otherwise, you will lose a life.
+```sh
+Word: _ _ _ _ _
+Lives: 6
+Guess a letter: E
+```
+
+4. **Continue Guessing**: Keep guessing letters until you either successfully guess the word or run out of lives.
+
+5. **Win or Lose**: If you guess the word, you win! If you run out of lives, the hangman is complete, and you lose.
